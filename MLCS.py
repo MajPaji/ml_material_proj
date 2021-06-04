@@ -36,6 +36,8 @@ df[['v1', 'v2']] = df[['v1', 'v2']].astype('int')
 
 # to rename a columns name 
 
+
+
 df.rename(columns = {'old_name' : 'new_name'}, inplace = True)
 
 # define the horsepower column in three bins Low, Medium, High
